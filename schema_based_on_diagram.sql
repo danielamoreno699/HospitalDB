@@ -13,7 +13,6 @@ CREATE TABLE
     treatment(
         id INT PRIMARY KEY,
         name VARCHAR(250),
-        name VARCHAR(250)
     );
 
 CREATE TABLE 
