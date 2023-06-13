@@ -1,5 +1,7 @@
 CREATE DATABASE clinicDB;
 
+/* tables from the diagrams */
+
 CREATE TABLE
     patients(
         id INT PRIMARY KEY,
@@ -39,6 +41,8 @@ CREATE TABLE
         payed_at DATE,
         FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
     );
+
+/* tables that represent the Many to many relationships */
 
 CREATE TABLE 
     patient_treatments (
