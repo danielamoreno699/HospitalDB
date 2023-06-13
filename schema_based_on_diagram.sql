@@ -7,4 +7,9 @@ CREATE TABLE
         date_of_birth DATE
     );
 
-
+CREATE TABLE
+    treatment(
+        id INT PRIMARY KEY,
+        name VARCHAR(250),
+        name VARCHAR(250)
+    );
