@@ -39,4 +39,12 @@ CREATE TABLE
         payed_at DATE,
         FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
     );
-    
+
+CREATE TABLE 
+    patient_treatments (
+        patient_id INT,
+        treatment_id INT,
+        PRIMARY KEY (patient_id, treatment_id),
+        FOREIGN KEY (patient_id) REFERENCES patients(id),
+        FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+    );
