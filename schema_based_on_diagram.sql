@@ -35,6 +35,7 @@ CREATE TABLE
     invoices(
         id INT PRIMARY KEY,
         total_amount DECIMAL(10,2),
+        generated_at DATE,
         payed_at DATE,
         FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
     );
