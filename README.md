@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2><b>Vet Clinic Database</b></h2>
+  <h2><b>Clinic Database</b></h2>
 </div>
 
 <h4 align="center"><b>Readme</b></h4>
@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic Database <a name="about-project"></a>
+# 📖 Clinic Database <a name="about-project"></a>
 
-**Vet Clinic Database** "In this project, I have used a relational database to create the initial data structure for a vet clinic. I have created a table to store animals' information, insert some data into it, and query it. I have used PostgreSQL."
+**Clinic Database** "In this project, I have used a relational database to create the initial data structure for a clinic. I have created a table to store patients' information, insert some data into it, and query it. I have used PostgreSQL."
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,9 +52,9 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Make Database]**
-- **[Make Animals table]**
-- **[Insert values into the Animals table]**
-- **[Query through the animals database]**
+- **[Make Patients table]**
+- **[Insert values into the Patients table]**
+- **[Query through the Patients database]**
 - **[Use Join for multiple tables]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -71,9 +71,9 @@ PostgreSQL database
 
 ### Setup
 
-git clone https://github.com/Metaverse-Nabeel/vetClinicDB.git
+git clone https://github.com/Metaverse-Nabeel/HMS_DB_Design.git
 
-cd vetClinicDB
+cd HMS_DB_Design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,6 +82,11 @@ cd vetClinicDB
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Nabeel Ahmed**
+- GitHub: [@Metaverse-Nabeel](https://github.com/Metaverse-Nabeel)
+- LinkedIn: [@Nabeel129](https://www.linkedin.com/in/nabeel129/)
+- Wellfound(AngelList): [@Nabeel129](https://wellfound.com/u/nabeel-ahmed-62)
+
+👤 **Daniela Moreno**
 - GitHub: [@Metaverse-Nabeel](https://github.com/Metaverse-Nabeel)
 - LinkedIn: [@Nabeel129](https://www.linkedin.com/in/nabeel129/)
 - Wellfound(AngelList): [@Nabeel129](https://wellfound.com/u/nabeel-ahmed-62)
