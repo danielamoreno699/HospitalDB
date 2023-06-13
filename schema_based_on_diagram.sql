@@ -48,3 +48,12 @@ CREATE TABLE
         FOREIGN KEY (patient_id) REFERENCES patients(id),
         FOREIGN KEY (treatment_id) REFERENCES treatments(id)
     );
+
+CREATE TABLE 
+    invoice_medical_histories (
+        invoice_id INT,
+        medical_history_id INT,
+        PRIMARY KEY (invoice_id, medical_history_id),
+        FOREIGN KEY (invoice_id) REFERENCES invoices(id),
+        FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id)
+    );
