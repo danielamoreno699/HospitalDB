@@ -43,14 +43,19 @@ CREATE TABLE
 
 /* tables that represent the Many to many relationships */
 
-CREATE TABLE 
-    patient_treatments (
-        FOREIGN KEY (patient_id) REFERENCES patients(id),
-        FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+CREATE TABLE
+    medical_histories_treatments(
+        FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
+        FOREIGN KEY (treatment_id) REFERENCES treatment(id)
     );
 
-CREATE TABLE 
-    invoice_medical_histories (
-        FOREIGN KEY (invoice_id) REFERENCES invoices(id),
-        FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id)
-    );
+/* Adding FK indexes */
+
+CREATE INDEX fk_medical_histories_patients_idx ON medical_histories(patient_id);
+CREATE INDEX fk_invoice_items_invoices_idx ON invoice_items(invoice_id);
+CREATE INDEX fk_invoice_items_treatments_idx ON invoice_items(treatment_id);
+CREATE INDEX fk_invoices_medical_histories_idx ON invoices(medical_history_id);
+
+
+
+
